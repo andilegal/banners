@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--<![endif]-->
+
+  
+<!-- Mirrored from mordomo.argos4.me/mordomo-helper/2019/landing-pages/12/366/300x250/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Dec 2019 01:16:25 GMT -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+    <meta name="ad.size" content="width=300,height=250" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      body {
+        background: #ffffff;
+        margin: 0;
+        padding: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      div,
+      img {
+        position: absolute;
+      }
+
+      #banner {
+        overflow: hidden;
+        width: 300px;
+        height: 250px;
+      }
+
+      .container {
+        position: relative;
+      }
+
+      .bg {
+        top: 0;
+        left: 0;
+        width: 300px;
+        height: 250px;
+        opacity: 1;
+      }
+
+      .padrao {
+        top: 0px;
+        left: 0px;
+        width: 300px;
+        height: 250px;
+        opacity: 0;
+      }
+
+      .padrao1 {
+        opacity: 0;
+      }
+    </style>
+    <script>
+      /*!
+       * VERSION: 2.1.3
+       * DATE: 2019-05-17
+       * UPDATES AND DOCS AT: http://greensock.com
+       *
+       * Includes all of the following: TweenLite, TweenMax, TimelineLite, TimelineMax, EasePack, CSSPlugin, RoundPropsPlugin, BezierPlugin, AttrPlugin, DirectionalRotationPlugin
+       *
+       * @license Copyright (c) 2008-2019, GreenSock. All rights reserved.
+       * This work is subject to the terms at http://greensock.com/standard-license or for
+       * Club GreenSock members, the software agreement that was issued with your membership.
+       *
+       * @author: Jack Doyle, jack@greensock.com
+       **/
+    </script>
+    <script src="../../../../../../../cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script>
+      window.onload = function step() {
+        // STEP 1
+        TweenLite.fromTo(
+          ".bg",
+          0.5,
+          { opacity: 0 },
+          { opacity: 1, delay: 0.5 }
+        );
+        TweenLite.fromTo(
+          ".logo",
+          0.5,
+          { x: 20, opacity: 0 },
+          { x: 0, opacity: 1, delay: 1 }
+        );
+        TweenLite.fromTo(
+          ".txt1-1",
+          0.5,
+          { x: -20, opacity: 0 },
+          { x: 0, opacity: 1, delay: 1.5 }
+        );
+
+        TweenLite.to(".bg", 0.5, { opacity: 0, delay: 4.5 });
+        TweenLite.to(".txt1-1", 0.5, { opacity: 0, delay: 4.5 });
+
+        // SETP 2
+        TweenLite.fromTo(
+          ".bg2",
+          0.5,
+          { opacity: 0 },
+          { opacity: 1, delay: 4.5 }
+        );
+        TweenLite.fromTo(
+          ".txt1-2",
+          0.5,
+          { x: -20, opacity: 0 },
+          { x: 0, opacity: 1, delay: 5 }
+        );
+
+        TweenLite.to(".txt1-2", 0.5, { x: -20, opacity: 0, delay: 8 });
+
+        // SETP3
+        TweenLite.fromTo(
+          ".txt1-3",
+          0.5,
+          { x: -20, opacity: 0 },
+          { x: 0, opacity: 1, delay: 8 }
+        );
+        TweenLite.fromTo(
+          ".txt2-3",
+          0.5,
+          { y: 20, opacity: 0 },
+          { y: 0, opacity: 1, delay: 8.4 }
+        );
+        TweenLite.fromTo(
+          ".retangulo",
+          0.5,
+          { opacity: 0 },
+          { opacity: 1, delay: 8.6 }
+        );
+        TweenLite.fromTo(
+          ".circulo-1",
+          0.5,
+          { x: -50, opacity: 0 },
+          { x: 0, opacity: 1, delay: 8.8 }
+        );
+        TweenLite.fromTo(
+          ".circulo-2",
+          0.5,
+          { x: -45, opacity: 0 },
+          { x: 0, opacity: 1, delay: 9 }
+        );
+        TweenLite.fromTo(
+          ".circulo-3",
+          0.5,
+          { x: -20, opacity: 0 },
+          { x: 0, opacity: 1, delay: 9.2 }
+        );
+        TweenLite.fromTo(
+          ".circulo-4",
+          0.5,
+          { opacity: 0 },
+          { opacity: 1, delay: 9.4 }
+        );
+        TweenLite.fromTo(
+          ".extraplay",
+          0.5,
+          { opacity: 0 },
+          { opacity: 1, delay: 9.6 }
+        );
+        TweenLite.fromTo(
+          ".txt-apps",
+          0.5,
+          { y: 10, opacity: 0 },
+          { y: 0, opacity: 1, delay: 9.8 }
+        );
+        TweenLite.fromTo(
+          ".app-1",
+          0.5,
+          { x: -70, opacity: 0 },
+          { x: 0, opacity: 1, delay: 10 }
+        );
+        TweenLite.fromTo(
+          ".app-2",
+          0.5,
+          { x: -65, opacity: 0 },
+          { x: 0, opacity: 1, delay: 10.2 }
+        );
+        TweenLite.fromTo(
+          ".app-3",
+          0.5,
+          { x: -60, opacity: 0 },
+          { x: 0, opacity: 1, delay: 10.4 }
+        );
+        TweenLite.fromTo(
+          ".app-4",
+          0.5,
+          { x: -55, opacity: 0 },
+          { x: 0, opacity: 1, delay: 10.8 }
+        );
+        TweenLite.fromTo(
+          ".app-5",
+          0.5,
+          { x: -50, opacity: 0 },
+          { x: 0, opacity: 1, delay: 11 }
+        );
+        TweenLite.fromTo(
+          ".app-6",
+          0.5,
+          { x: -45, opacity: 0 },
+          { x: 0, opacity: 1, delay: 11.2 }
+        );
+        TweenLite.fromTo(
+          ".app-7",
+          0.5,
+          { x: -40, opacity: 0 },
+          { x: 0, opacity: 1, delay: 11.4 }
+        );
+        TweenLite.fromTo(
+          ".valor",
+          2,
+          { css: { scale: 0.8 } },
+          {
+            opacity: 1,
+            scale: 1,
+            ease: Elastic.easeOut.config(1, 0.3),
+            delay: 11.8
+          }
+        );
+        TweenLite.fromTo(
+          ".btn",
+          2,
+          { css: { scale: 0.8 } },
+          {
+            opacity: 1,
+            scale: 1,
+            ease: Elastic.easeOut.config(1, 0.3),
+            delay: 13
+          }
+        );
+      };
+    </script>
+  </head>
+
+  <body>
+    <div id="banner">
+      <div class="container">
+        <a href="javascript:void(window.open(window.clickTag, '_blank'))">
+          <!-- STEP 1 -->
+          <img
+            class="padrao bg"
+            src="img/bg.png"
+            alt="Background com Thiago Lifert segurando um celular"
+          />
+          <img
+            class="padrao txt1-1"
+            src="img/txt1-1.png"
+            alt="Seu próximo novo"
+          />
+
+          <!-- STEP 2 -->
+          <img
+            class="padrao bg2"
+            src="img/bg2.png"
+            alt="Background vermelho gadriente"
+          />
+          <img
+            class="padrao txt1-2"
+            src="img/txt1-2.png"
+            alt="É ter a internet mais rápida do Brasil"
+          />
+          <img
+            class="padrao txt2-2"
+            src="img/txt2-2.png"
+            alt="Speedtest 4.5g"
+          />
+          <!-- SETP 3 -->
+          <img
+            class="padrao txt1-3"
+            src="img/txt1-3.png"
+            alt="Claro pós internacional"
+          />
+          <img class="padrao txt2-3" src="img/txt2-3.png" alt="8bg + 8gb" />
+          <img
+            class="padrao retangulo"
+            src="img/retangulo.png"
+            alt="Retangulo"
+          />
+          <img
+            class="padrao circulo-1"
+            src="img/circulo-1.png"
+            alt="Icone app Claro"
+          />
+          <img
+            class="padrao circulo-2"
+            src="img/circulo-2.png"
+            alt="Icone Now"
+          />
+          <img
+            class="padrao circulo-3"
+            src="img/circulo-3.png"
+            alt="Icone Netflix"
+          />
+          <img
+            class="padrao circulo-4"
+            src="img/circulo-4.png"
+            alt="Icone YouTube"
+          />
+          <img
+            class="padrao extraplay"
+            src="img/extraplay.png"
+            alt="Extraplay"
+          />
+          <img
+            class="padrao txt-apps"
+            src="img/txt-apps.png"
+            alt="Apps para navegar ilimitado"
+          />
+          <img class="padrao app-1" src="img/app-1.png" alt="Icone app Claro" />
+          <img
+            class="padrao app-2"
+            src="img/app-2.png"
+            alt="Icone app Cabify"
+          />
+          <img class="padrao app-3" src="img/app-3.png" alt="Icone app Waze" />
+          <img
+            class="padrao app-4"
+            src="img/app-4.png"
+            alt="Icone app Twitter"
+          />
+          <img
+            class="padrao app-5"
+            src="img/app-5.png"
+            alt="Icone app Facebook"
+          />
+          <img
+            class="padrao app-6"
+            src="img/app-6.png"
+            alt="Icone app Instagram"
+          />
+          <img
+            class="padrao app-7"
+            src="img/app-7.png"
+            alt="Icone app Whatsapp"
+          />
+          <img
+            class="padrao valor"
+            src="img/valor.png"
+            alt="Por R$119,99/mês"
+          />
+          <img class="padrao btn" src="img/btn.png" alt="Contrate" />
+
+          <img class="padrao logo" src="img/logo.png" alt="Logo claro net" />
+        </a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var clickTag = "https://www.google.com.br/";
+    </script>
+  </body>
+
+<!-- Mirrored from mordomo.argos4.me/mordomo-helper/2019/landing-pages/12/366/300x250/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Dec 2019 01:16:32 GMT -->
+</html>
